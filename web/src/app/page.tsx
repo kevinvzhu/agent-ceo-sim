@@ -20,15 +20,16 @@ const LENGTHS = ["micro", "short", "medium", "long"] as const;
 const CRAZINESS = ["tame", "normal", "crazy", "unhinged"] as const;
 
 const TEMPLATES = [
+  { id: "phia", label: "Phia", subtitle: "Cookie-stuffing scandal · 2025-present · live wire" },
   { id: "delve", label: "Delve", subtitle: "AI security · YC W24 · live wire" },
   { id: "theranos", label: "Theranos", subtitle: "Edison machine · 2003-2018 · 11y federal" },
   { id: "ftx", label: "FTX", subtitle: "Bahamas crypto · 2019-2022 · 25y federal" },
   { id: "wework", label: "WeWork", subtitle: "Vibes-based real estate · 2010-2019 · acquisition" },
   { id: "nikola", label: "Nikola", subtitle: "The truck rolling downhill · 4y federal" },
-  { id: "frank", label: "Frank", subtitle: "Synthetic users for $175M · acquired by JPM" },
 ];
 
 const TEMPLATES_MORE = [
+  { id: "frank", label: "Frank", subtitle: "Synthetic users for $175M · acquired by JPM" },
   { id: "outcome_health", label: "Outcome Health", subtitle: "Doctor's office TV fraud · 2006-2019" },
   { id: "headspin", label: "HeadSpin", subtitle: "ARR inflation · 18mo federal" },
   { id: "ozy", label: "Ozy Media", subtitle: "Impersonating a YouTube exec · ongoing" },
