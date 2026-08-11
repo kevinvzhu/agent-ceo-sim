@@ -184,6 +184,19 @@ const TEMPLATE_BIBLE_SEEDS: Record<string, Partial<CompanyBible>> = {
     funding_stage: "series_a",
     founded_year: 2024,
   },
+  // NOTE: this map doubles as the template-id allowlist (`isTemplate =
+  // runId in TEMPLATE_BIBLE_SEEDS`) — a preset missing here silently runs
+  // the upload/mock path (observed: clicking Phia played Vellum).
+  phia: {
+    name: "Phia",
+    display_name: "Phia",
+    one_liner: "Never overpay again. An AI shopping agent that price-checks everything you buy.",
+    industry: "consumer",
+    founder: "Phoebe Gates",
+    founder_vibe: "nepo_baby",
+    funding_stage: "series_a",
+    founded_year: 2024,
+  },
 };
 
 export type UseRunResult = {
